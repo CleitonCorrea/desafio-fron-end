@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!--
+
+Autor      : Cleiton R Corrêa
+GitHub     : https://github.com/CleitonCorrea
+linkedin   : https://www.linkedin.com/in/cleitoncorrea/
+Email      : contatocleitoncorrea@hotmail.com
+
+-->
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="author" content="DSAThemes"/>	
+		<meta name="description" content="Documento de realizado para a empresa NeoAssist"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+				
+		<title>Teste NeoAssiste Front-End</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet"> 		
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet"> 
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/fa-svg-with-js.css" rel="stylesheet">	
+		<link href="css/pe-icon-7-stroke.css" rel="stylesheet">
+		<link href="css/magnific-popup.css" rel="stylesheet">
+		<link href="css/slick.css" rel="stylesheet">
+		<link href="css/slick-theme.css" rel="stylesheet">
+		<link href="css/animate.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet"> 	
+		<link href="css/responsive.css" rel="stylesheet"> 
+
+	</head>
+	<body>
+		<header>
+			<!--Preloader simples para o status de montagem do dom não mostrar uma tela em branco -->		
+			<div id="loader-wrapper">
+				<div id="loader">
+					<ul class="cssload-flex-container">
+						<li><span class="cssload-loading"></span></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<aside>
+				<div id="page" class="page">
+					<section class="bg-fixed bg-lightgrey wide-30 contacts-section division">				
+						<div class="container">
+							<div class="row">	
+								<div class="col-md-10 offset-md-1 section-title">
+									<h2 class="h2-lg"><span class="pe-7s-mail"></span> Atendimento via E-mail</h2>
+									<hr style="color: #e83e8c;">
+									<p>Preencha os campos e envie sua mensagem</p>									
+								</div> 	
+							</div>
+						 	<div class="row">
+						 		<div class="col-md-10 col-lg-8 offset-md-1 offset-lg-2">
+						 			<div class="form-holder">
+										<form name="contactform" action="" method="post" class="row contact-form">							
+											<div id="input-nome" class="col-lg-6">
+												<input type="text" name="nome" class="form-control nome" placeholder="Nome*"> 
+											</div>														
+											<div id="input-email" class="col-lg-6">
+												<input type="text" name="email" class="form-control email" placeholder="Email*"> 
+											</div>											
+											<div id="input-cpf" class="col-lg-6">
+												<input type="text" minlength="11" maxlenght="12" id="cpf" name="cpf" class="form-control cpf" placeholder="CPF*"> 
+											</div>														
+											<div id="input-tel" class="col-lg-6">
+												<input type="tel" minlength="10" id="tel" name="tel" class="form-control tel" placeholder="Tel*"> 
+											</div>
+											<div id="input-file" class="col-md-9">											
+												<input type="file" name="file" id="file" class="form-control file">							
+												<input type="text" name="fileText" id="fileText" class="form-control fileText" placeholder="Selecione o arquivo*" readonly="readonly">
+											</div>
+											<!-- Botão de Anexo -->
+											<div class="col-md-3 col-xs-12">
+												<input type="button" class="btn botao" value="SELECIONAR">
+											</div>													
+											<div id="input-message" class="col-lg-12 input-message">
+												<textarea class="form-control message" name="message" rows="6" placeholder="Deixe aqui sua mensagem ..."></textarea>
+											</div> 																								
+											<!-- Botão de submissão -->
+											<div class="col-lg-12 m-top-15 form-btn text-right">	
+												<button type="submit" class="btn btn-danger submit">ENVIAR</button>	
+											</div>																							
+											<!-- Mensagem de status -->
+											<div class="col-lg-12 contact-form-msg">
+												<span class="loading"></span>
+											</div>	
+																									
+										</form>	
+						 			</div>	
+						 		</div>	
+						 	</div>
+						</div>	
+					</section>
+				</div>
+
+				<!-- Chat -->
+				<div id="quick-form">
+					<div class="bottom-form">
+						<!-- Cabeçalho do chat -->
+						<div class="bottom-form-header">
+							<span class="pe-7s-chat"></span>
+							<p>Atendimento via chat</p>						            		
+		            	</div>
+		            	<!-- Chat plugin quick-form -->
+		                <div class="bottom-form-holder">		
+							<form name="contactform" class="quick-contact-form">
+								<div id="bottom-input-nome">
+									<input type="text" name="nome" class="bottom-form-control bnome" placeholder="Nome*"> 
+								</div>													
+								<div id="bottom-input-email">
+									<input type="text" name="email" class="bottom-form-control bemail" placeholder="Email*"> 
+								</div>																										
+								<div id="bottom-input-mensagem">
+									<textarea class="bottom-form-control bmemsagem" name="mensagem" rows="4" placeholder="Deixe sua mensagem, em breve iremos atende-lo! ..."></textarea>
+								</div>																							
+								<!-- Botão de envio -->
+								<div class="m-top-15 form-btn text-right">	
+									<button type="submit" class="btn btn-lightgreen submit">Enviar</button>	
+								</div>																											
+								<!-- Status do envio -->
+								<div class="contact-form-msg"><span class="loading"></span></div>												
+							</form>						
+						</div>
+					</div>
+				</div>
+			</div>
+		</aside>			
+			<!-- Footer -->
+			<footer id="footer-2" class="wide-60 footer division">
+				<div class="container">
+					<div class="bottom-footer">
+						<div class="row">
+							<div class="col-md-5">
+								<div class="footer-copyright">
+									<img src="images/logo-neoassist.png">
+									<p>&copy; 2018 <span>NeoAssist.</span> All Rights Reserved</p>									
+								</div>
+							</div>
+							<!-- Footer Mensade de Cleiton ;) -->
+							<div class="col-md-7">
+								<div class="footer-links text-right">
+									<p>Desenvolvido com Amor  <i class="fas fa-heart"></i><i class="fas fa-heart coracao"></i><i class="fas fa-heart"></i></p>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		
+		<!--Scripts externos-->
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.mask.min.js"></script><!--Plugin para as mascaras nos campos tel e cpf-->
+		<script src="js/bootstrap.min.js"></script>		
+		<script src="js/fontawesome-all.js"></script>
+		<script src="js/jquery.appear.js"></script><!--Plugin interno mapeando o user strict-->
+		<script src="js/slick.min.js"></script><!--Plugin para efeito popup do chat-->
+		<script src="js/jquery.magnific-popup.min.js"></script><!--Plugin do chat-->
+		
+		<!--Os 4 scripts abaixo tratam na validação e submissão do formulário, esta em vários arquivos para ficar fácio o entendimento
+		O plugin utilizado aqui é o Jquery e sua extensão o Validade -->	
+		<script src="js/contact-form.js"></script>
+		<script src="js/comment-form.js"></script>	
+		<script src="js/jquery.validate.min.js"></script>
+				
+		<!-- Scripts responsável por aplicar as devidas configurações nos plugins utilizados aqui -->		
+		<script src="js/custom.js"></script>	
+	</body>
+</html>	

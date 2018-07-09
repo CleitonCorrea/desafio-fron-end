@@ -1,0 +1,26 @@
+			************************************
+			************************************
+			*********** OBSERVAÇÕES ************
+			************************************
+			******* DESAFIO FRONT END **********
+			************************************
+		
+Autor Cleiton Corrêa
+email: cleitoncorrea2013@hotmail.com
+
+
+Olá Rodolfo, tudo bem!
+
+Estou enviando o desafio do front end proposto pela empresa.
+Os códigos estão comentados aonde acredito que são necessário para entender o fluxo da aplicação
+Estou enviando também um arquivo php, que faz o envio do formulário princial. Apensar de não ser solicitado, porém pode ser 
+testado, ele esta sentando este seu email para fins de teste real, neste script, utilizo a biblioteca do phpMailer.
+
+OBS: 
+	- não fiz tratamento do tipos mimes dos arquivos por não ser solicitado.
+	- O Campo tel não é Obrigatório, porém o usuário não pode digitar um número errado ou seja, faço apenas um tratamento para inserir a quantidade de digitos corretos
+
+
+
+		Obrigado, e espero pode passar por
+		esta fase.......... ;))!!!!!!!!!!!!!!
